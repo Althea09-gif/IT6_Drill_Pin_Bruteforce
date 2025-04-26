@@ -62,3 +62,8 @@ To defend against this type of attack, I would:
 - Introduce account lockout mechanisms.
 
 ---
+
+## References
+
+- [Unblu article on guessing PIN codes](https://www.unblu.com/en/docs/5/knowledge-base/security-guessing-the-pin-code.html) — Helped me understand brute-force logic and server-side protections.
+- [A video tutorial in youtube on how to simulate a brute-force attack ethically using Python] (https://www.youtube.com/watch?v=HHOzhtrJJg0) - Help me to learn how to simulate and secure my web by brute-force attack.
