@@ -67,3 +67,9 @@ To defend against this type of attack, I would:
 
 - [Unblu article on guessing PIN codes](https://www.unblu.com/en/docs/5/knowledge-base/security-guessing-the-pin-code.html) — Helped me understand brute-force logic and server-side protections.
 - [A video tutorial in youtube on how to simulate a brute-force attack ethically using Python] (https://www.youtube.com/watch?v=HHOzhtrJJg0) - Help me to learn how to simulate and secure my web by brute-force attack.
+
+
+## Video Tutorial
+
+Watch my full step-by-step explanation of this challenge here:  
+[👉 Click to Watch on YouTube](https://youtu.be/oMBYkjZd6r8?si=kdMMs9rSk2OfX6CI)
